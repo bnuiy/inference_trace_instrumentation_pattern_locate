@@ -1,11 +1,11 @@
-# chipadapt_jd043
+# inference_trace_instrumentation_pattern_locate
 
 **用规则在推理芯片适配工程师·推理链路的追踪埋点里定位可疑位置。**
 
-`chipadapt_jd043` —— 用一组明示的正则规则扫描输入，报告推理芯片适配工程师·推理链路的追踪埋点相关的命中行与片段
+`inference_trace_instrumentation_pattern_locate` —— 用一组明示的正则规则扫描输入，报告推理芯片适配工程师·推理链路的追踪埋点相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`chipadapt_jd043.py` 拷走就能用
+- 单文件，`inference_trace_instrumentation_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install bnuiy-chipadapt_jd043
+pip install bnuiy-inference_trace_instrumentation_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-chipadapt_jd043 --help
+inference_trace_instrumentation_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `chipadapt_jd043.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `inference_trace_instrumentation_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ chipadapt_jd043 --help
 ## 用法
 
 ```bash
-python chipadapt_jd043.py --file input.txt
-python chipadapt_jd043.py --text "示例内容"
-python chipadapt_jd043.py --file input.txt --json
+python inference_trace_instrumentation_pattern_locate.py --file input.txt
+python inference_trace_instrumentation_pattern_locate.py --text "示例内容"
+python inference_trace_instrumentation_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python chipadapt_jd043.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_chipadapt_jd043.py
+python test_inference_trace_instrumentation_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_chipadapt_jd043.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/bnuiy/chipadapt_jd043>
+- GitHub 仓库：<https://github.com/bnuiy/inference_trace_instrumentation_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_chipadapt_jd043.py
 bnuiy 做推理芯片适配工程师·推理链路的追踪埋点相关的问题，方向对标阶跃星辰的初级推理芯片适配工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://bnuiy.github.io>
-- 仓库：<https://github.com/bnuiy/chipadapt_jd043>
+- 仓库：<https://github.com/bnuiy/inference_trace_instrumentation_pattern_locate>
 
 ## 许可
 
